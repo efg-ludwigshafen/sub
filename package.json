@@ -1,0 +1,33 @@
+{
+  "name": "sub",
+  "version": "0.0.0",
+  "description": "instant subtitles for speech",
+  "main": "src/main/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main/js/index.js",
+    "debug": "nodemon src/main/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efg-ludwigshafen/sub.git"
+  },
+  "author": "Dominik Schreiber <domischreib@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efg-ludwigshafen/sub/issues"
+  },
+  "homepage": "https://github.com/efg-ludwigshafen/sub#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.72.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  },
+  "config": {
+    "port": "3000",
+    "translateapi": "https://script.google.com/macros/s/AKfycbyq4iOW6Sl7phXpEtI_nWgD3CLoev3DAIc076tqyEnyOVMTwHU/exec"
+  }
+}
