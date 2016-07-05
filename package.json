@@ -13,7 +13,7 @@
     "url": "git+https://github.com/efg-ludwigshafen/sub.git"
   },
   "author": "Dominik Schreiber <domischreib@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/efg-ludwigshafen/sub/issues"
   },
